@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 // ROUTES
 app.use('/zanou2api/v1/users', routes.users);
-app.use('/zanou2api/v1/posts', routes.posts);
+app.use('/zanou2api/v1/entries', routes.entries);
 app.use('/zanou2api/v1/auth', routes.auth);
 
 // HOME ROUTE
